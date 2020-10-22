@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.menu__list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.menu__list-item{
+    padding: 0 8px;
+}
+.menu__item-link{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 800;
+    color: black;
+}
+.menu__item-link:hover{
+    color: grey;
+}
+.menu__list-item--active a{
+    color: #900022;
+}
+.menu__list-item--active a:hover{
+    color: red;
+}
+.menu__btn span{
+    display: block;
+    margin-bottom: 4px;
+    background-color: white;
+    height: 4px;
+}
+.menu__btn{
+    display: block;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.header__container{
+    background-color: #7e0019;
+
+}
+.header__container-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 88px;
+}
+.header__container-text{
+    /*margin-top: 33px;*/
+    /*margin-right: 450px;*/
+}
+.header__container__text--link{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header__container-title{
+    text-align: center;
+    display: inline-block;
+}
+.header__container-title--link{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.title{
+    font-size: 32px;
+}
+.header__container-logo--text{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header__container-language{
+    margin-right: 20px;
+}
+.header__container-language--link1{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header__container-language--link2{
+    color: grey;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header__container-button{
+    height: 36px;
+    border: #fff 3px solid;
+    background: #b30c1d;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header__container-block1{
+    display: flex;
+}
+.header__container-block2{
+    text-align: center;
+}
+.header__container-block3{
+    display: flex;
+    align-items: center;
+}
+.menu__bottom{
+    margin-bottom: 2px;
+}
+.menu__bottom-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.bottom__list-item{
+    padding: 0 8px;
+}
+.menu__bottom-item--link{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+}
+.menu__bottom-item--link:hover{
+    color: grey;
+}
+.line{
+    border-bottom: 1px solid rgba(208, 212, 216, 1);
+}
+
