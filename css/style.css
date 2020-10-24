@@ -61,6 +61,7 @@ ul{
 }
 .header__container{
     background-color: #7e0019;
+    position: relative;
 
 }
 .header__container-block{
@@ -135,6 +136,123 @@ ul{
     display: flex;
     align-items: center;
 }
+.header__drop-menu{
+    display: none;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    min-width: 300px;
+    margin: 0;
+    background: #2e2e2e;
+    color: #fff;
+    padding: 0 0 60px;
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.36);
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.36);
+}
+.drop__menu-container{
+    padding: 0 20px;
+}
+.search__container{
+    clear: both;
+    padding: 10px 0 0 0;
+    width: 100%;
+}
+.search__form{
+    position: relative;
+    margin: 10px 0 20px 0;
+}
+.search__field{
+    width: 100%;
+    border: none;
+    padding: 3px 10px;
+    color: #111;
+    outline: none;
+    background-color: #fff;
+    padding-right: 95px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.search__button{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border: none;
+    background: #2e2e2e;
+    padding: 10px 12px 10px 12px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.drop__menu-nav{
+    margin: 0 -13px 0 -13px;
+    width: calc(100% - 40px);
+    padding: 30px 20px 20px 20px;
+}
+.side__menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.block__menu{
+    width: 25%;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+    position: relative;
+    border-right: 1px solid #626265;
+}
+.block__menu:last-child{
+    border: none;
+}
+.block__menu-title{
+    padding: 0px 0 13px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.block__menu-title--link{
+    color: #fff;
+}
+.drop__menu-list{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0 15px 0 0;
+    overflow: hidden;
+    text-align: left;
+    font-weight: 700;
+}
+.drop__menu-item{
+    display: block;
+    position: relative;
+    padding: 0 12px 10px 0;
+}
+.drop__menu-item--link{
+    color: #fff;
+}
+.right__menu-list{
+    font-size: 13px;
+    padding: 0 15px 0 0;
+    font-weight: 400;
+}
+.right__menu-item{
+    display: block;
+    position: relative;
+    padding: 0 12px 10px 0;
+    width: 100%;
+}
+.right__menu-item--link{
+    color: #fff;
+}
+
 .menu__bottom{
     margin-bottom: 2px;
 }
